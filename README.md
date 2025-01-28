@@ -61,6 +61,10 @@ Este projeto foi estruturado e executado com metodologias ágeis, utilizando o *
     - Tarefa: Criar gráficos de distribuição de DDDs.
     - Tarefa: Exibir proporção de dados válidos vs. inválidos.
 
+![CSV Cleaner - Dashboard](assets/dashboard_jira1.png)
+
+![CSV Cleaner - Dashboard](assets/dashboard_jira2.png)
+
 Essa abordagem destaca habilidades como **planejamento**, **gestão de projetos** e **organização de tarefas**, que são essenciais em ambientes corporativos.
 
 ---
