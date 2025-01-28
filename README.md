@@ -71,6 +71,29 @@ Essa abordagem destaca habilidades como **planejamento**, **gestão de projetos*
 
 ## 🚀 **Como Usar**
 ### 1. Clone o Repositório:
-```bash
+```
 git clone https://github.com/YOUR-USERNAME/csv-cleaner-flush.git
 cd csv-cleaner-flush
+```
+### 2. Crie um Ambiente Virtual:
+```
+python -m venv venv
+```
+### 3. Ative o Ambiente Virtual:
+- **Windows**:
+  ```
+  venv\Scripts\activate
+  ```
+- **Linux**:
+  ```
+  source venv/bin/activate
+  ```
+
+### 4.  Instale as Dependências:
+```
+pip install -r requirements.txt
+```
+### 5. Execute a Aplicação:
+```
+streamlit run src/app.py
+```
