@@ -1,7 +1,7 @@
 # CSV Cleaner - Flush
 🚀 Uma ferramenta interativa e altamente funcional para limpeza, validação e padronização de dados em arquivos CSV. Desenvolvido com **Python** e **Streamlit**, este projeto foi cuidadosamente planejado e executado para destacar habilidades em análise de dados, organização e metodologias ágeis.
 
-![CSV Cleaner - Dashboard](assets/dashboard_example.png)
+![CSV Cleaner - Dashboard](assets/dashboard.png)
 
 ---
 
@@ -49,21 +49,35 @@ Análise categórica que exibe as principais fontes de aquisição de dados (por
 ## 📂 **Organização e Planejamento**
 Este projeto foi estruturado e executado com metodologias ágeis, utilizando o **Jira** para organização e acompanhamento das tarefas. O desenvolvimento foi dividido em **épicos, sprints e tarefas** específicas para manter o progresso consistente e alinhado aos objetivos.
 
-### **Exemplo de Organização no Jira**:
-- **Épico**: Desenvolvimento do CSV Cleaner.
-  - **Sprint 1**: Validação e limpeza de números de telefone.
-    - Tarefa: Implementar lógica de validação de DDDs.
-    - Tarefa: Excluir linhas sem número válido.
-  - **Sprint 2**: Normalização de e-mails.
-    - Tarefa: Corrigir pequenos erros de digitação em e-mails.
-    - Tarefa: Validar domínios conhecidos.
-  - **Sprint 3**: Dashboards Interativos.
-    - Tarefa: Criar gráficos de distribuição de DDDs.
-    - Tarefa: Exibir proporção de dados válidos vs. inválidos.
+### 📝 **Tarefas e Sprints**
 
-![CSV Cleaner - Dashboard](assets/dashboard_jira1.png)
+### **Sprint: Preparação da Base de Dados**
+- **Tarefa:** Carregar a base de dados no pandas. ✅
+- **Tarefa:** Analisar inconsistências iniciais. ✅
+- **Tarefa:** Gerar resumo inicial da base. ✅
 
-![CSV Cleaner - Dashboard](assets/dashboard_jira2.png)
+### **Sprint: Limpeza e Validação**
+- **Tarefa:** Validar e padronizar números de telefone. ✅
+- **Tarefa:** Validar e-mails com regex e email-validator. ✅
+- **Tarefa:** Padronizar gêneros. ✅
+- **Tarefa:** Tratar datas de nascimento. ✅
+- **Tarefa:** Padronizar nomes. ✅
+
+### **Sprint: Análise e Relatórios**
+- **Tarefa:** Gerar gráfico da distribuição de DDDs. ✅
+- **Tarefa:** Criar gráfico da proporção de dados válidos vs. inválidos. ✅
+- **Tarefa:** Analisar origens dos leads. ✅
+- **Tarefa:** Salvar gráficos como imagens para relatório. ✅
+
+### **Sprint: Entrega Final**
+- **Tarefa:** Exportar base tratada. ✅
+- **Tarefa:** Criar relatório visual em PDF. ✅
+- **Tarefa:** Revisar e documentar o projeto no README. ✅
+
+
+![CSV Cleaner - Dashboard](assets/jira1.png)
+
+![CSV Cleaner - Dashboard](assets/jira2.png)
 
 Essa abordagem destaca habilidades como **planejamento**, **gestão de projetos** e **organização de tarefas**, que são essenciais em ambientes corporativos.
 
@@ -97,3 +111,14 @@ pip install -r requirements.txt
 ```
 streamlit run src/app.py
 ```
+## 📝 Licença
+Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para mais detalhes.
+
+## 🤝 Contribuições
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests para melhorias.
+
+## 📞 Contato
+Para dúvidas ou sugestões:
+
+- E-mail: contato@vhmac.com
+- LinkedIn: linkedin.com/in/vhmac
